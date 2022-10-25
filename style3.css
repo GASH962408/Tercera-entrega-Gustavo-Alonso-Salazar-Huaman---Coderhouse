@@ -1,0 +1,104 @@
+body {
+    margin: 0px;
+    background-color: aliceblue;
+    font-family: 'Poppins',sans-serif;
+}
+
+
+
+button {
+    font-size: 16px;
+    text-align: center;
+    border-radius: 8px;
+    padding: 10px 20px;
+}
+
+.page-nav {
+    background-color: #f39f21;
+    border: 1px solid rgb(255, 250, 250);
+    position: relative;
+}
+
+.page-nav h1 {
+    margin: 20px;
+}
+
+.button-pagar {
+    background-color: rgb(255, 255, 255);
+    color: black;
+    border: 2px solid #000000; /* Blue */
+    transition-duration: 0.4s;
+    position: absolute;
+    right: 15px;
+    bottom: 15px;
+}
+
+.button-visualizar {
+    background-color: rgb(255, 255, 255);
+    color: black;
+    border: 2px solid #000000; /* Blue */
+    transition-duration: 0.4s;
+    position: absolute;
+    right: 120px;
+    bottom: 15px;
+}
+
+.button-retornar {
+    background-color: rgb(255, 255, 255);
+    color: black;
+    border: 2px solid #000000; /* Blue */
+    transition-duration: 0.4s;
+    position: absolute;
+    right: 255px;
+    bottom: 15px;
+}
+
+.button-checkout:hover {
+    background-color: #008CBA; /* Blue */
+    color: white;
+}
+
+.page-content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.product-container {
+    margin: 15px;
+    padding: 2px 16px;
+    position: relative;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.1);
+    background-color: white;
+    border: 2px solid #000000; 
+    border-radius: 15px;
+}
+
+
+.product-container:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+  }
+
+.product-container img {
+    width: 300px;
+}
+
+.product-container h1 {
+    margin-bottom: 10px;
+    margin-left: 15px;
+}
+
+.button-add {
+    background-color: #f39f21;
+    color: black;
+    border: 2px solid #161716; /* Green */
+    transition-duration: 0.4s;
+    position: absolute;
+    right: 15px;
+    bottom: 10px;
+}
+  
+.button-add:hover {
+    background-color: #4CAF50; /* Green */
+    color: white;
+}

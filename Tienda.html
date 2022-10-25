@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<head>
+    <link href="https://fonts.googleapis.com/css2?family=Nerko+One&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style3.css" />
+    <script src="Tienda.js">
+    </script>
+</head>
+<body>
+    <div class="page-nav">
+        <h1>AUTOG TIENDA VIRTUAL DE SENSORES</h1>
+        <button id="visualizar" class="button-visualizar" onclick="verCarrito()">Ver carrito</button>
+        <button id="pagar" class="button-pagar" onclick="pay()">Pagar</button>
+        <button id="retornar" class="button-retornar" onclick="location.href='Index.html'">Retornar</button>
+       
+    
+    
+    </div>
+    <div class="page-content">
+        <div class="product-container">
+            <h2>Sensor: Capacitivo</h2>
+            <h3>Marca: SIEMENS</h3>
+            <h3>Protocolo: HART 2020</h3>
+            <img src="img/p1.png" />
+            <h1>$500 USD</h1>
+            <button class="button-add" onclick="addcarrito(0,500)">Agregar</button>
+        </div>
+
+        <div class="product-container">
+            <h2>Sensor: Inductivo</h2>
+            <h3>Marca: ABB</h3>
+            <h3>Protocolo: MODBUS 2019</h3>
+            <img src="img/p2.jpg" />
+            <h1>$250 USD</h1>
+            <button class="button-add" onclick="addcarrito(1,250)">Agregar</button>
+        </div>
+
+        <div class="product-container">
+            <h2>Sensor: Presion</h2>
+            <h3>Marca: SCHNEIDER</h3>
+            <h3>Protocolo: HART 2022</h3>
+            <img src="img/p3.jpg" />
+            <h1>$760 USD</h1>
+            <button class="button-add" onclick="addcarrito(2,760)">Agregar</button>
+        </div>
+
+        <div class="product-container">
+            <h2>Sensor: Resistivo</h2>
+            <h3>Marca: ABB</h3>
+            <h3>Protocolo: MODBUS 2018</h3>
+            <img src="img/p4.jpg" />
+            <h1>$150 USD</h1>
+            <button class="button-add" onclick="addcarrito(3,150)">Agregar</button>
+        </div>
+
+        <div class="product-container">
+            <h2>Sensor: Temperatura</h2>
+            <h3>Marca: ABB</h3>
+            <h3>Protocolo: MODBUS 2018</h3>
+            <img src="img/p5.jpg" />
+            <h1>$125 USD</h1>
+            <button class="button-add" onclick="addcarrito(4,125)">Agregar</button>
+        </div>
+
+    </div>
+</body>
